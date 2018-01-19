@@ -38,6 +38,656 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-149",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1684.0, 491.166687, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-150",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1612.0, 492.166687, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-152",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 1612.0, 449.166687, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "+ 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-153",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1571.0, 407.166687, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-154",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1571.0, 347.166687, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-155",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1610.0, 535.166687, 54.0, 22.0 ],
+					"style" : "",
+					"text" : "gate 2 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-156",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1653.0, 575.166687, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-157",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1610.0, 575.166687, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "0.8"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-158",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1610.0, 624.166687, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-186",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1190.0, 680.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-184",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 1171.333374, 634.0, 43.0, 22.0 ],
+					"style" : "",
+					"text" : "sel 61"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-174",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1440.0, 745.5, 61.0, 22.0 ],
+					"style" : "",
+					"text" : "thresh $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-176",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 1475.0, 795.5, 194.0, 22.0 ],
+					"style" : "",
+					"text" : "jit.matrix 4 char 320 240 @interp 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-177",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 1552.0, 753.5, 108.0, 22.0 ],
+					"style" : "",
+					"text" : "jit.noise 4 char 8 6"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-178",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1422.0, 603.5, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-179",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_gl_texture", "" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 7,
+							"minor" : 3,
+							"revision" : 4,
+							"architecture" : "x86",
+							"modernui" : 1
+						}
+,
+						"rect" : [ 734.0, 166.0, 600.0, 450.0 ],
+						"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-16",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 207.724899, 289.356781, 31.0, 22.0 ],
+									"style" : "",
+									"text" : "!- 1."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-15",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 52.050377, 340.300018, 46.0, 22.0 ],
+									"style" : "",
+									"text" : "mix"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-14",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 94.400757, 296.722076, 32.5, 22.0 ],
+									"style" : "",
+									"text" : ">"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-13",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 94.400757, 247.006424, 32.5, 22.0 ],
+									"style" : "",
+									"text" : "+"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 94.400757, 210.793777, 32.5, 22.0 ],
+									"style" : "",
+									"text" : "+"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-11",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 176.400757, 170.898499, 44.0, 22.0 ],
+									"style" : "",
+									"text" : "swiz b"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 135.400757, 170.898499, 44.0, 22.0 ],
+									"style" : "",
+									"text" : "swiz g"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 94.400757, 170.898499, 41.0, 22.0 ],
+									"style" : "",
+									"text" : "swiz r"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 94.400757, 141.437347, 32.5, 22.0 ],
+									"style" : "",
+									"text" : "*"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 162.305664, 105.838493, 89.0, 22.0 ],
+									"style" : "",
+									"text" : "vec 0.2 0.7 0.1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 94.400757, 105.838493, 61.0, 22.0 ],
+									"style" : "",
+									"text" : "swiz r g b"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 333.548492, 39.296417, 81.0, 22.0 ],
+									"style" : "",
+									"text" : "param thresh"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 156.781693, 39.296417, 30.0, 22.0 ],
+									"style" : "",
+									"text" : "in 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 52.050377, 39.296417, 30.0, 22.0 ],
+									"style" : "",
+									"text" : "in 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 52.050377, 378.009247, 38.0, 22.0 ],
+									"style" : "",
+									"text" : "out 1"
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"order" : 1,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"order" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 1 ],
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 1 ],
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"source" : [ "obj-13", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 2 ],
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 1 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 1 ],
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 1 ],
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"order" : 1,
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"order" : 0,
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"order" : 2,
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 1273.5, 786.5, 138.0, 22.0 ],
+					"style" : "",
+					"text" : "jit.gl.pix ctx @thresh 0.5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-180",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 1422.0, 676.5, 81.0, 22.0 ],
+					"style" : "",
+					"text" : "jit.window ctx"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-181",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 1322.5, 753.5, 89.0, 22.0 ],
+					"style" : "",
+					"text" : "jit.gl.render ctx"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-182",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "erase" ],
+					"patching_rect" : [ 1342.0, 701.5, 57.0, 22.0 ],
+					"style" : "",
+					"text" : "t b erase"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-183",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1342.0, 647.5, 65.0, 22.0 ],
+					"style" : "",
+					"text" : "qmetro 33"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-129",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -76,58 +726,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-157",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1828.0, 794.0, 24.0, 24.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-155",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1750.0, 748.0, 24.0, 24.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-153",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1740.25, 665.0, 69.0, 22.0 ],
-					"style" : "",
-					"text" : "delay 1000"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-148",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1758.0, 568.0, 54.0, 22.0 ],
-					"style" : "",
-					"text" : "gate 2 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-138",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -160,21 +758,21 @@
 								"filekind" : "audiofile",
 								"loop" : 0,
 								"content_state" : 								{
-									"originaltempo" : [ 120.0 ],
 									"slurtime" : [ 0.0 ],
-									"pitchcorrection" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"formant" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"timestretch" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"quality" : [ "basic" ],
 									"speed" : [ 1.0 ],
 									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
 									"formantcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"originallengthms" : [ 0.0 ],
-									"pitchshift" : [ 1.0 ]
+									"mode" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"pitchshift" : [ 1.0 ],
+									"formant" : [ 1.0 ],
+									"basictuning" : [ 440 ],
+									"originaltempo" : [ 120.0 ]
 								}
 
 							}
@@ -943,21 +1541,21 @@
 								"selection" : [ 0.358234, 0.960951 ],
 								"loop" : 0,
 								"content_state" : 								{
-									"originaltempo" : [ 120.0 ],
 									"slurtime" : [ 0.0 ],
-									"pitchcorrection" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"formant" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"timestretch" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"quality" : [ "basic" ],
 									"speed" : [ 1.0 ],
 									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
 									"formantcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"originallengthms" : [ 0.0 ],
-									"pitchshift" : [ 1.0 ]
+									"mode" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"pitchshift" : [ 1.0 ],
+									"formant" : [ 1.0 ],
+									"basictuning" : [ 440 ],
+									"originaltempo" : [ 120.0 ]
 								}
 
 							}
@@ -966,21 +1564,21 @@
 								"filekind" : "audiofile",
 								"loop" : 0,
 								"content_state" : 								{
-									"originaltempo" : [ 120.0 ],
 									"slurtime" : [ 0.0 ],
-									"pitchcorrection" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"formant" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"timestretch" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"quality" : [ "basic" ],
 									"speed" : [ 1.0 ],
 									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
 									"formantcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"originallengthms" : [ 0.0 ],
-									"pitchshift" : [ 1.0 ]
+									"mode" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"pitchshift" : [ 1.0 ],
+									"formant" : [ 1.0 ],
+									"basictuning" : [ 440 ],
+									"originaltempo" : [ 120.0 ]
 								}
 
 							}
@@ -989,21 +1587,21 @@
 								"filekind" : "audiofile",
 								"loop" : 0,
 								"content_state" : 								{
-									"originaltempo" : [ 120.0 ],
 									"slurtime" : [ 0.0 ],
-									"pitchcorrection" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"formant" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"timestretch" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"quality" : [ "basic" ],
 									"speed" : [ 1.0 ],
 									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
 									"formantcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"originallengthms" : [ 0.0 ],
-									"pitchshift" : [ 1.0 ]
+									"mode" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"pitchshift" : [ 1.0 ],
+									"formant" : [ 1.0 ],
+									"basictuning" : [ 440 ],
+									"originaltempo" : [ 120.0 ]
 								}
 
 							}
@@ -1013,21 +1611,21 @@
 								"selection" : [ 0.067912, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
-									"originaltempo" : [ 120.0 ],
 									"slurtime" : [ 0.0 ],
-									"pitchcorrection" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"formant" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"timestretch" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"quality" : [ "basic" ],
 									"speed" : [ 1.0 ],
 									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
 									"formantcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"originallengthms" : [ 0.0 ],
-									"pitchshift" : [ 1.0 ]
+									"mode" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"pitchshift" : [ 1.0 ],
+									"formant" : [ 1.0 ],
+									"basictuning" : [ 440 ],
+									"originaltempo" : [ 120.0 ]
 								}
 
 							}
@@ -1036,21 +1634,21 @@
 								"filekind" : "audiofile",
 								"loop" : 0,
 								"content_state" : 								{
-									"originaltempo" : [ 120.0 ],
 									"slurtime" : [ 0.0 ],
-									"pitchcorrection" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"formant" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"timestretch" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"quality" : [ "basic" ],
 									"speed" : [ 1.0 ],
 									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
 									"formantcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"originallengthms" : [ 0.0 ],
-									"pitchshift" : [ 1.0 ]
+									"mode" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"pitchshift" : [ 1.0 ],
+									"formant" : [ 1.0 ],
+									"basictuning" : [ 440 ],
+									"originaltempo" : [ 120.0 ]
 								}
 
 							}
@@ -1059,21 +1657,21 @@
 								"filekind" : "audiofile",
 								"loop" : 0,
 								"content_state" : 								{
-									"originaltempo" : [ 120.0 ],
 									"slurtime" : [ 0.0 ],
-									"pitchcorrection" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"formant" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"timestretch" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"quality" : [ "basic" ],
 									"speed" : [ 1.0 ],
 									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
 									"formantcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"originallengthms" : [ 0.0 ],
-									"pitchshift" : [ 1.0 ]
+									"mode" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"pitchshift" : [ 1.0 ],
+									"formant" : [ 1.0 ],
+									"basictuning" : [ 440 ],
+									"originaltempo" : [ 120.0 ]
 								}
 
 							}
@@ -1082,21 +1680,21 @@
 								"filekind" : "audiofile",
 								"loop" : 0,
 								"content_state" : 								{
-									"originaltempo" : [ 120.0 ],
 									"slurtime" : [ 0.0 ],
-									"pitchcorrection" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"formant" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"timestretch" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"quality" : [ "basic" ],
 									"speed" : [ 1.0 ],
 									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
 									"formantcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"originallengthms" : [ 0.0 ],
-									"pitchshift" : [ 1.0 ]
+									"mode" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"pitchshift" : [ 1.0 ],
+									"formant" : [ 1.0 ],
+									"basictuning" : [ 440 ],
+									"originaltempo" : [ 120.0 ]
 								}
 
 							}
@@ -1105,21 +1703,21 @@
 								"filekind" : "audiofile",
 								"loop" : 0,
 								"content_state" : 								{
-									"originaltempo" : [ 120.0 ],
 									"slurtime" : [ 0.0 ],
-									"pitchcorrection" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"formant" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"timestretch" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"quality" : [ "basic" ],
 									"speed" : [ 1.0 ],
 									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
 									"formantcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"originallengthms" : [ 0.0 ],
-									"pitchshift" : [ 1.0 ]
+									"mode" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"pitchshift" : [ 1.0 ],
+									"formant" : [ 1.0 ],
+									"basictuning" : [ 440 ],
+									"originaltempo" : [ 120.0 ]
 								}
 
 							}
@@ -1128,21 +1726,21 @@
 								"filekind" : "audiofile",
 								"loop" : 0,
 								"content_state" : 								{
-									"originaltempo" : [ 120.0 ],
 									"slurtime" : [ 0.0 ],
-									"pitchcorrection" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"formant" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"timestretch" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"quality" : [ "basic" ],
 									"speed" : [ 1.0 ],
 									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
 									"formantcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"originallengthms" : [ 0.0 ],
-									"pitchshift" : [ 1.0 ]
+									"mode" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"pitchshift" : [ 1.0 ],
+									"formant" : [ 1.0 ],
+									"basictuning" : [ 440 ],
+									"originaltempo" : [ 120.0 ]
 								}
 
 							}
@@ -1151,21 +1749,21 @@
 								"filekind" : "audiofile",
 								"loop" : 0,
 								"content_state" : 								{
-									"originaltempo" : [ 120.0 ],
 									"slurtime" : [ 0.0 ],
-									"pitchcorrection" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"formant" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"timestretch" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"quality" : [ "basic" ],
 									"speed" : [ 1.0 ],
 									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
 									"formantcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"originallengthms" : [ 0.0 ],
-									"pitchshift" : [ 1.0 ]
+									"mode" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"pitchshift" : [ 1.0 ],
+									"formant" : [ 1.0 ],
+									"basictuning" : [ 440 ],
+									"originaltempo" : [ 120.0 ]
 								}
 
 							}
@@ -1174,21 +1772,21 @@
 								"filekind" : "audiofile",
 								"loop" : 0,
 								"content_state" : 								{
-									"originaltempo" : [ 120.0 ],
 									"slurtime" : [ 0.0 ],
-									"pitchcorrection" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"formant" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"timestretch" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"quality" : [ "basic" ],
 									"speed" : [ 1.0 ],
 									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
 									"formantcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"originallengthms" : [ 0.0 ],
-									"pitchshift" : [ 1.0 ]
+									"mode" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"pitchshift" : [ 1.0 ],
+									"formant" : [ 1.0 ],
+									"basictuning" : [ 440 ],
+									"originaltempo" : [ 120.0 ]
 								}
 
 							}
@@ -1216,21 +1814,21 @@
 								"filekind" : "audiofile",
 								"loop" : 0,
 								"content_state" : 								{
-									"originaltempo" : [ 120.0 ],
 									"slurtime" : [ 0.0 ],
-									"pitchcorrection" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"formant" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"timestretch" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"quality" : [ "basic" ],
 									"speed" : [ 1.0 ],
 									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
 									"formantcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"originallengthms" : [ 0.0 ],
-									"pitchshift" : [ 1.0 ]
+									"mode" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"pitchshift" : [ 1.0 ],
+									"formant" : [ 1.0 ],
+									"basictuning" : [ 440 ],
+									"originaltempo" : [ 120.0 ]
 								}
 
 							}
@@ -1239,21 +1837,21 @@
 								"filekind" : "audiofile",
 								"loop" : 0,
 								"content_state" : 								{
-									"originaltempo" : [ 120.0 ],
 									"slurtime" : [ 0.0 ],
-									"pitchcorrection" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"formant" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"timestretch" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"quality" : [ "basic" ],
 									"speed" : [ 1.0 ],
 									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
 									"formantcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"originallengthms" : [ 0.0 ],
-									"pitchshift" : [ 1.0 ]
+									"mode" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"pitchshift" : [ 1.0 ],
+									"formant" : [ 1.0 ],
+									"basictuning" : [ 440 ],
+									"originaltempo" : [ 120.0 ]
 								}
 
 							}
@@ -1262,21 +1860,21 @@
 								"filekind" : "audiofile",
 								"loop" : 0,
 								"content_state" : 								{
-									"originaltempo" : [ 120.0 ],
 									"slurtime" : [ 0.0 ],
-									"pitchcorrection" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"formant" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"timestretch" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"quality" : [ "basic" ],
 									"speed" : [ 1.0 ],
 									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
 									"formantcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"originallengthms" : [ 0.0 ],
-									"pitchshift" : [ 1.0 ]
+									"mode" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"pitchshift" : [ 1.0 ],
+									"formant" : [ 1.0 ],
+									"basictuning" : [ 440 ],
+									"originaltempo" : [ 120.0 ]
 								}
 
 							}
@@ -1285,21 +1883,21 @@
 								"filekind" : "audiofile",
 								"loop" : 0,
 								"content_state" : 								{
-									"originaltempo" : [ 120.0 ],
 									"slurtime" : [ 0.0 ],
-									"pitchcorrection" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"formant" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"timestretch" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"quality" : [ "basic" ],
 									"speed" : [ 1.0 ],
 									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
 									"formantcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"originallengthms" : [ 0.0 ],
-									"pitchshift" : [ 1.0 ]
+									"mode" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"pitchshift" : [ 1.0 ],
+									"formant" : [ 1.0 ],
+									"basictuning" : [ 440 ],
+									"originaltempo" : [ 120.0 ]
 								}
 
 							}
@@ -1309,21 +1907,21 @@
 								"selection" : [ 0.122222, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
-									"originaltempo" : [ 120.0 ],
 									"slurtime" : [ 0.0 ],
-									"pitchcorrection" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"formant" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"timestretch" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"quality" : [ "basic" ],
 									"speed" : [ 1.0 ],
 									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
 									"formantcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"originallengthms" : [ 0.0 ],
-									"pitchshift" : [ 1.0 ]
+									"mode" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"pitchshift" : [ 1.0 ],
+									"formant" : [ 1.0 ],
+									"basictuning" : [ 440 ],
+									"originaltempo" : [ 120.0 ]
 								}
 
 							}
@@ -1332,21 +1930,21 @@
 								"filekind" : "audiofile",
 								"loop" : 0,
 								"content_state" : 								{
-									"originaltempo" : [ 120.0 ],
 									"slurtime" : [ 0.0 ],
-									"pitchcorrection" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"formant" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"timestretch" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"quality" : [ "basic" ],
 									"speed" : [ 1.0 ],
 									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
 									"formantcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"originallengthms" : [ 0.0 ],
-									"pitchshift" : [ 1.0 ]
+									"mode" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"pitchshift" : [ 1.0 ],
+									"formant" : [ 1.0 ],
+									"basictuning" : [ 440 ],
+									"originaltempo" : [ 120.0 ]
 								}
 
 							}
@@ -1355,21 +1953,21 @@
 								"filekind" : "audiofile",
 								"loop" : 0,
 								"content_state" : 								{
-									"originaltempo" : [ 120.0 ],
 									"slurtime" : [ 0.0 ],
-									"pitchcorrection" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"formant" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"timestretch" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"quality" : [ "basic" ],
 									"speed" : [ 1.0 ],
 									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
 									"formantcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"originallengthms" : [ 0.0 ],
-									"pitchshift" : [ 1.0 ]
+									"mode" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"pitchshift" : [ 1.0 ],
+									"formant" : [ 1.0 ],
+									"basictuning" : [ 440 ],
+									"originaltempo" : [ 120.0 ]
 								}
 
 							}
@@ -1379,21 +1977,21 @@
 								"selection" : [ 0.122222, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
-									"originaltempo" : [ 120.0 ],
 									"slurtime" : [ 0.0 ],
-									"pitchcorrection" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"formant" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"timestretch" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"quality" : [ "basic" ],
 									"speed" : [ 1.0 ],
 									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
 									"formantcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"originallengthms" : [ 0.0 ],
-									"pitchshift" : [ 1.0 ]
+									"mode" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"pitchshift" : [ 1.0 ],
+									"formant" : [ 1.0 ],
+									"basictuning" : [ 440 ],
+									"originaltempo" : [ 120.0 ]
 								}
 
 							}
@@ -1402,21 +2000,21 @@
 								"filekind" : "audiofile",
 								"loop" : 0,
 								"content_state" : 								{
-									"originaltempo" : [ 120.0 ],
 									"slurtime" : [ 0.0 ],
-									"pitchcorrection" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"formant" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"timestretch" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"quality" : [ "basic" ],
 									"speed" : [ 1.0 ],
 									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
 									"formantcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"originallengthms" : [ 0.0 ],
-									"pitchshift" : [ 1.0 ]
+									"mode" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"pitchshift" : [ 1.0 ],
+									"formant" : [ 1.0 ],
+									"basictuning" : [ 440 ],
+									"originaltempo" : [ 120.0 ]
 								}
 
 							}
@@ -1425,21 +2023,21 @@
 								"filekind" : "audiofile",
 								"loop" : 0,
 								"content_state" : 								{
-									"originaltempo" : [ 120.0 ],
 									"slurtime" : [ 0.0 ],
-									"pitchcorrection" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"formant" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"timestretch" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"quality" : [ "basic" ],
 									"speed" : [ 1.0 ],
 									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
 									"formantcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"originallengthms" : [ 0.0 ],
-									"pitchshift" : [ 1.0 ]
+									"mode" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"pitchshift" : [ 1.0 ],
+									"formant" : [ 1.0 ],
+									"basictuning" : [ 440 ],
+									"originaltempo" : [ 120.0 ]
 								}
 
 							}
@@ -1449,21 +2047,21 @@
 								"selection" : [ 0.17037, 0.97963 ],
 								"loop" : 0,
 								"content_state" : 								{
-									"originaltempo" : [ 120.0 ],
 									"slurtime" : [ 0.0 ],
-									"pitchcorrection" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"formant" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"timestretch" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"quality" : [ "basic" ],
 									"speed" : [ 1.0 ],
 									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
 									"formantcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"originallengthms" : [ 0.0 ],
-									"pitchshift" : [ 1.0 ]
+									"mode" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"pitchshift" : [ 1.0 ],
+									"formant" : [ 1.0 ],
+									"basictuning" : [ 440 ],
+									"originaltempo" : [ 120.0 ]
 								}
 
 							}
@@ -2687,31 +3285,31 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u511001612" ],
 									"dim" : [ 1, 1 ],
-									"loopreport" : [ 0 ],
-									"loopstart" : [ 0 ],
-									"usedstrect" : [ 0 ],
-									"position" : [ 0.0 ],
-									"loopend" : [ 0 ],
-									"usesrcrect" : [ 0 ],
-									"vol" : [ 0 ],
-									"drawto" : [ "" ],
-									"engine" : [ "avf" ],
-									"unique" : [ 0 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"automatic" : [ 0 ],
-									"autostart" : [ 1 ],
-									"output_texture" : [ 0 ],
-									"time" : [ 0 ],
-									"framereport" : [ 0 ],
-									"rate" : [ 1.0 ],
-									"texture_name" : [ "u869001610" ],
-									"interp" : [ 0 ],
-									"colormode" : [ "argb" ],
-									"time_secs" : [ 0.0 ],
-									"looppoints" : [ 0, 0 ],
 									"dstrect" : [ 0, 0, 1, 1 ],
+									"moviefile" : [ "" ],
+									"engine" : [ "avf" ],
+									"texture_name" : [ "u869001610" ],
+									"position" : [ 0.0 ],
+									"autostart" : [ 1 ],
+									"vol" : [ 0 ],
+									"loopstart" : [ 0 ],
+									"drawto" : [ "" ],
+									"looppoints" : [ 0, 0 ],
+									"unique" : [ 0 ],
 									"adapt" : [ 1 ],
-									"moviefile" : [ "" ]
+									"colormode" : [ "argb" ],
+									"automatic" : [ 0 ],
+									"loopreport" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"time" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"loopend" : [ 0 ],
+									"time_secs" : [ 0.0 ],
+									"output_texture" : [ 0 ],
+									"rate" : [ 1.0 ],
+									"usedstrect" : [ 0 ],
+									"interp" : [ 0 ],
+									"framereport" : [ 0 ]
 								}
 
 							}
@@ -2724,31 +3322,31 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u511001612" ],
 									"dim" : [ 1, 1 ],
-									"loopreport" : [ 0 ],
-									"loopstart" : [ 0 ],
-									"usedstrect" : [ 0 ],
-									"position" : [ 0.0 ],
-									"loopend" : [ 0 ],
-									"usesrcrect" : [ 0 ],
-									"vol" : [ 0 ],
-									"drawto" : [ "" ],
-									"engine" : [ "avf" ],
-									"unique" : [ 0 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"automatic" : [ 0 ],
-									"autostart" : [ 1 ],
-									"output_texture" : [ 0 ],
-									"time" : [ 0 ],
-									"framereport" : [ 0 ],
-									"rate" : [ 1.0 ],
-									"texture_name" : [ "u869001610" ],
-									"interp" : [ 0 ],
-									"colormode" : [ "argb" ],
-									"time_secs" : [ 0.0 ],
-									"looppoints" : [ 0, 0 ],
 									"dstrect" : [ 0, 0, 1, 1 ],
+									"moviefile" : [ "" ],
+									"engine" : [ "avf" ],
+									"texture_name" : [ "u869001610" ],
+									"position" : [ 0.0 ],
+									"autostart" : [ 1 ],
+									"vol" : [ 0 ],
+									"loopstart" : [ 0 ],
+									"drawto" : [ "" ],
+									"looppoints" : [ 0, 0 ],
+									"unique" : [ 0 ],
 									"adapt" : [ 1 ],
-									"moviefile" : [ "" ]
+									"colormode" : [ "argb" ],
+									"automatic" : [ 0 ],
+									"loopreport" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"time" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"loopend" : [ 0 ],
+									"time_secs" : [ 0.0 ],
+									"output_texture" : [ 0 ],
+									"rate" : [ 1.0 ],
+									"usedstrect" : [ 0 ],
+									"interp" : [ 0 ],
+									"framereport" : [ 0 ]
 								}
 
 							}
@@ -2760,31 +3358,31 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u657001700" ],
 									"dim" : [ 1, 1 ],
-									"loopreport" : [ 0 ],
-									"loopstart" : [ 0 ],
-									"usedstrect" : [ 0 ],
-									"position" : [ 0.0 ],
-									"loopend" : [ 0 ],
-									"usesrcrect" : [ 0 ],
-									"vol" : [ 0 ],
-									"drawto" : [ "" ],
-									"engine" : [ "avf" ],
-									"unique" : [ 0 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"automatic" : [ 0 ],
-									"autostart" : [ 1 ],
-									"output_texture" : [ 0 ],
-									"time" : [ 0 ],
-									"framereport" : [ 0 ],
-									"rate" : [ 1.0 ],
-									"texture_name" : [ "u875001698" ],
-									"interp" : [ 0 ],
-									"colormode" : [ "argb" ],
-									"time_secs" : [ 0.0 ],
-									"looppoints" : [ 0, 0 ],
 									"dstrect" : [ 0, 0, 1, 1 ],
+									"moviefile" : [ "" ],
+									"engine" : [ "avf" ],
+									"texture_name" : [ "u875001698" ],
+									"position" : [ 0.0 ],
+									"autostart" : [ 1 ],
+									"vol" : [ 0 ],
+									"loopstart" : [ 0 ],
+									"drawto" : [ "" ],
+									"looppoints" : [ 0, 0 ],
+									"unique" : [ 0 ],
 									"adapt" : [ 1 ],
-									"moviefile" : [ "" ]
+									"colormode" : [ "argb" ],
+									"automatic" : [ 0 ],
+									"loopreport" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"time" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"loopend" : [ 0 ],
+									"time_secs" : [ 0.0 ],
+									"output_texture" : [ 0 ],
+									"rate" : [ 1.0 ],
+									"usedstrect" : [ 0 ],
+									"interp" : [ 0 ],
+									"framereport" : [ 0 ]
 								}
 
 							}
@@ -2797,31 +3395,31 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u558001949" ],
 									"dim" : [ 1, 1 ],
-									"loopreport" : [ 0 ],
-									"loopstart" : [ 0 ],
-									"usedstrect" : [ 0 ],
-									"position" : [ 0.0 ],
-									"loopend" : [ 0 ],
-									"usesrcrect" : [ 0 ],
-									"vol" : [ 0 ],
-									"drawto" : [ "" ],
-									"engine" : [ "avf" ],
-									"unique" : [ 0 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"automatic" : [ 0 ],
-									"autostart" : [ 1 ],
-									"output_texture" : [ 0 ],
-									"time" : [ 0 ],
-									"framereport" : [ 0 ],
-									"rate" : [ 1.0 ],
-									"texture_name" : [ "u277001947" ],
-									"interp" : [ 0 ],
-									"colormode" : [ "argb" ],
-									"time_secs" : [ 0.0 ],
-									"looppoints" : [ 0, 0 ],
 									"dstrect" : [ 0, 0, 1, 1 ],
+									"moviefile" : [ "" ],
+									"engine" : [ "avf" ],
+									"texture_name" : [ "u277001947" ],
+									"position" : [ 0.0 ],
+									"autostart" : [ 1 ],
+									"vol" : [ 0 ],
+									"loopstart" : [ 0 ],
+									"drawto" : [ "" ],
+									"looppoints" : [ 0, 0 ],
+									"unique" : [ 0 ],
 									"adapt" : [ 1 ],
-									"moviefile" : [ "" ]
+									"colormode" : [ "argb" ],
+									"automatic" : [ 0 ],
+									"loopreport" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"time" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"loopend" : [ 0 ],
+									"time_secs" : [ 0.0 ],
+									"output_texture" : [ 0 ],
+									"rate" : [ 1.0 ],
+									"usedstrect" : [ 0 ],
+									"interp" : [ 0 ],
+									"framereport" : [ 0 ]
 								}
 
 							}
@@ -2834,31 +3432,31 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u511001612" ],
 									"dim" : [ 1, 1 ],
-									"loopreport" : [ 0 ],
-									"loopstart" : [ 0 ],
-									"usedstrect" : [ 0 ],
-									"position" : [ 0.0 ],
-									"loopend" : [ 0 ],
-									"usesrcrect" : [ 0 ],
-									"vol" : [ 0 ],
-									"drawto" : [ "" ],
-									"engine" : [ "avf" ],
-									"unique" : [ 0 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"automatic" : [ 0 ],
-									"autostart" : [ 1 ],
-									"output_texture" : [ 0 ],
-									"time" : [ 0 ],
-									"framereport" : [ 0 ],
-									"rate" : [ 1.0 ],
-									"texture_name" : [ "u869001610" ],
-									"interp" : [ 0 ],
-									"colormode" : [ "argb" ],
-									"time_secs" : [ 0.0 ],
-									"looppoints" : [ 0, 0 ],
 									"dstrect" : [ 0, 0, 1, 1 ],
+									"moviefile" : [ "" ],
+									"engine" : [ "avf" ],
+									"texture_name" : [ "u869001610" ],
+									"position" : [ 0.0 ],
+									"autostart" : [ 1 ],
+									"vol" : [ 0 ],
+									"loopstart" : [ 0 ],
+									"drawto" : [ "" ],
+									"looppoints" : [ 0, 0 ],
+									"unique" : [ 0 ],
 									"adapt" : [ 1 ],
-									"moviefile" : [ "" ]
+									"colormode" : [ "argb" ],
+									"automatic" : [ 0 ],
+									"loopreport" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"time" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"loopend" : [ 0 ],
+									"time_secs" : [ 0.0 ],
+									"output_texture" : [ 0 ],
+									"rate" : [ 1.0 ],
+									"usedstrect" : [ 0 ],
+									"interp" : [ 0 ],
+									"framereport" : [ 0 ]
 								}
 
 							}
@@ -2870,31 +3468,31 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u511001612" ],
 									"dim" : [ 1, 1 ],
-									"loopreport" : [ 0 ],
-									"loopstart" : [ 0 ],
-									"usedstrect" : [ 0 ],
-									"position" : [ 0.0 ],
-									"loopend" : [ 0 ],
-									"usesrcrect" : [ 0 ],
-									"vol" : [ 0 ],
-									"drawto" : [ "" ],
-									"engine" : [ "avf" ],
-									"unique" : [ 0 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"automatic" : [ 0 ],
-									"autostart" : [ 1 ],
-									"output_texture" : [ 0 ],
-									"time" : [ 0 ],
-									"framereport" : [ 0 ],
-									"rate" : [ 1.0 ],
-									"texture_name" : [ "u869001610" ],
-									"interp" : [ 0 ],
-									"colormode" : [ "argb" ],
-									"time_secs" : [ 0.0 ],
-									"looppoints" : [ 0, 0 ],
 									"dstrect" : [ 0, 0, 1, 1 ],
+									"moviefile" : [ "" ],
+									"engine" : [ "avf" ],
+									"texture_name" : [ "u869001610" ],
+									"position" : [ 0.0 ],
+									"autostart" : [ 1 ],
+									"vol" : [ 0 ],
+									"loopstart" : [ 0 ],
+									"drawto" : [ "" ],
+									"looppoints" : [ 0, 0 ],
+									"unique" : [ 0 ],
 									"adapt" : [ 1 ],
-									"moviefile" : [ "" ]
+									"colormode" : [ "argb" ],
+									"automatic" : [ 0 ],
+									"loopreport" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"time" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"loopend" : [ 0 ],
+									"time_secs" : [ 0.0 ],
+									"output_texture" : [ 0 ],
+									"rate" : [ 1.0 ],
+									"usedstrect" : [ 0 ],
+									"interp" : [ 0 ],
+									"framereport" : [ 0 ]
 								}
 
 							}
@@ -2906,31 +3504,31 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u511001612" ],
 									"dim" : [ 1, 1 ],
-									"loopreport" : [ 0 ],
-									"loopstart" : [ 0 ],
-									"usedstrect" : [ 0 ],
-									"position" : [ 0.0 ],
-									"loopend" : [ 0 ],
-									"usesrcrect" : [ 0 ],
-									"vol" : [ 0 ],
-									"drawto" : [ "" ],
-									"engine" : [ "avf" ],
-									"unique" : [ 0 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"automatic" : [ 0 ],
-									"autostart" : [ 1 ],
-									"output_texture" : [ 0 ],
-									"time" : [ 0 ],
-									"framereport" : [ 0 ],
-									"rate" : [ 1.0 ],
-									"texture_name" : [ "u869001610" ],
-									"interp" : [ 0 ],
-									"colormode" : [ "argb" ],
-									"time_secs" : [ 0.0 ],
-									"looppoints" : [ 0, 0 ],
 									"dstrect" : [ 0, 0, 1, 1 ],
+									"moviefile" : [ "" ],
+									"engine" : [ "avf" ],
+									"texture_name" : [ "u869001610" ],
+									"position" : [ 0.0 ],
+									"autostart" : [ 1 ],
+									"vol" : [ 0 ],
+									"loopstart" : [ 0 ],
+									"drawto" : [ "" ],
+									"looppoints" : [ 0, 0 ],
+									"unique" : [ 0 ],
 									"adapt" : [ 1 ],
-									"moviefile" : [ "" ]
+									"colormode" : [ "argb" ],
+									"automatic" : [ 0 ],
+									"loopreport" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"time" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"loopend" : [ 0 ],
+									"time_secs" : [ 0.0 ],
+									"output_texture" : [ 0 ],
+									"rate" : [ 1.0 ],
+									"usedstrect" : [ 0 ],
+									"interp" : [ 0 ],
+									"framereport" : [ 0 ]
 								}
 
 							}
@@ -2942,31 +3540,31 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u558001949" ],
 									"dim" : [ 1, 1 ],
-									"loopreport" : [ 0 ],
-									"loopstart" : [ 0 ],
-									"usedstrect" : [ 0 ],
-									"position" : [ 0.0 ],
-									"loopend" : [ 0 ],
-									"usesrcrect" : [ 0 ],
-									"vol" : [ 0 ],
-									"drawto" : [ "" ],
-									"engine" : [ "avf" ],
-									"unique" : [ 0 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"automatic" : [ 0 ],
-									"autostart" : [ 1 ],
-									"output_texture" : [ 0 ],
-									"time" : [ 0 ],
-									"framereport" : [ 0 ],
-									"rate" : [ 1.0 ],
-									"texture_name" : [ "u277001947" ],
-									"interp" : [ 0 ],
-									"colormode" : [ "argb" ],
-									"time_secs" : [ 0.0 ],
-									"looppoints" : [ 0, 0 ],
 									"dstrect" : [ 0, 0, 1, 1 ],
+									"moviefile" : [ "" ],
+									"engine" : [ "avf" ],
+									"texture_name" : [ "u277001947" ],
+									"position" : [ 0.0 ],
+									"autostart" : [ 1 ],
+									"vol" : [ 0 ],
+									"loopstart" : [ 0 ],
+									"drawto" : [ "" ],
+									"looppoints" : [ 0, 0 ],
+									"unique" : [ 0 ],
 									"adapt" : [ 1 ],
-									"moviefile" : [ "" ]
+									"colormode" : [ "argb" ],
+									"automatic" : [ 0 ],
+									"loopreport" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"time" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"loopend" : [ 0 ],
+									"time_secs" : [ 0.0 ],
+									"output_texture" : [ 0 ],
+									"rate" : [ 1.0 ],
+									"usedstrect" : [ 0 ],
+									"interp" : [ 0 ],
+									"framereport" : [ 0 ]
 								}
 
 							}
@@ -2979,31 +3577,31 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u564000379" ],
 									"dim" : [ 1, 1 ],
-									"loopreport" : [ 0 ],
-									"loopstart" : [ 0 ],
-									"usedstrect" : [ 0 ],
-									"position" : [ 0.0 ],
-									"loopend" : [ 0 ],
-									"usesrcrect" : [ 0 ],
-									"vol" : [ 0 ],
-									"drawto" : [ "" ],
-									"engine" : [ "avf" ],
-									"unique" : [ 0 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"automatic" : [ 0 ],
-									"autostart" : [ 1 ],
-									"output_texture" : [ 0 ],
-									"time" : [ 0 ],
-									"framereport" : [ 0 ],
-									"rate" : [ 1.0 ],
-									"texture_name" : [ "u462000377" ],
-									"interp" : [ 0 ],
-									"colormode" : [ "argb" ],
-									"time_secs" : [ 0.0 ],
-									"looppoints" : [ 0, 0 ],
 									"dstrect" : [ 0, 0, 1, 1 ],
+									"moviefile" : [ "" ],
+									"engine" : [ "avf" ],
+									"texture_name" : [ "u462000377" ],
+									"position" : [ 0.0 ],
+									"autostart" : [ 1 ],
+									"vol" : [ 0 ],
+									"loopstart" : [ 0 ],
+									"drawto" : [ "" ],
+									"looppoints" : [ 0, 0 ],
+									"unique" : [ 0 ],
 									"adapt" : [ 1 ],
-									"moviefile" : [ "" ]
+									"colormode" : [ "argb" ],
+									"automatic" : [ 0 ],
+									"loopreport" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"time" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"loopend" : [ 0 ],
+									"time_secs" : [ 0.0 ],
+									"output_texture" : [ 0 ],
+									"rate" : [ 1.0 ],
+									"usedstrect" : [ 0 ],
+									"interp" : [ 0 ],
+									"framereport" : [ 0 ]
 								}
 
 							}
@@ -3016,31 +3614,31 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u558001949" ],
 									"dim" : [ 1, 1 ],
-									"loopreport" : [ 0 ],
-									"loopstart" : [ 0 ],
-									"usedstrect" : [ 0 ],
-									"position" : [ 0.0 ],
-									"loopend" : [ 0 ],
-									"usesrcrect" : [ 0 ],
-									"vol" : [ 0 ],
-									"drawto" : [ "" ],
-									"engine" : [ "avf" ],
-									"unique" : [ 0 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"automatic" : [ 0 ],
-									"autostart" : [ 1 ],
-									"output_texture" : [ 0 ],
-									"time" : [ 0 ],
-									"framereport" : [ 0 ],
-									"rate" : [ 1.0 ],
-									"texture_name" : [ "u277001947" ],
-									"interp" : [ 0 ],
-									"colormode" : [ "argb" ],
-									"time_secs" : [ 0.0 ],
-									"looppoints" : [ 0, 0 ],
 									"dstrect" : [ 0, 0, 1, 1 ],
+									"moviefile" : [ "" ],
+									"engine" : [ "avf" ],
+									"texture_name" : [ "u277001947" ],
+									"position" : [ 0.0 ],
+									"autostart" : [ 1 ],
+									"vol" : [ 0 ],
+									"loopstart" : [ 0 ],
+									"drawto" : [ "" ],
+									"looppoints" : [ 0, 0 ],
+									"unique" : [ 0 ],
 									"adapt" : [ 1 ],
-									"moviefile" : [ "" ]
+									"colormode" : [ "argb" ],
+									"automatic" : [ 0 ],
+									"loopreport" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"time" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"loopend" : [ 0 ],
+									"time_secs" : [ 0.0 ],
+									"output_texture" : [ 0 ],
+									"rate" : [ 1.0 ],
+									"usedstrect" : [ 0 ],
+									"interp" : [ 0 ],
+									"framereport" : [ 0 ]
 								}
 
 							}
@@ -3052,31 +3650,31 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u564000379" ],
 									"dim" : [ 1, 1 ],
-									"loopreport" : [ 0 ],
-									"loopstart" : [ 0 ],
-									"usedstrect" : [ 0 ],
-									"position" : [ 0.0 ],
-									"loopend" : [ 0 ],
-									"usesrcrect" : [ 0 ],
-									"vol" : [ 0 ],
-									"drawto" : [ "" ],
-									"engine" : [ "avf" ],
-									"unique" : [ 0 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"automatic" : [ 0 ],
-									"autostart" : [ 1 ],
-									"output_texture" : [ 0 ],
-									"time" : [ 0 ],
-									"framereport" : [ 0 ],
-									"rate" : [ 1.0 ],
-									"texture_name" : [ "u462000377" ],
-									"interp" : [ 0 ],
-									"colormode" : [ "argb" ],
-									"time_secs" : [ 0.0 ],
-									"looppoints" : [ 0, 0 ],
 									"dstrect" : [ 0, 0, 1, 1 ],
+									"moviefile" : [ "" ],
+									"engine" : [ "avf" ],
+									"texture_name" : [ "u462000377" ],
+									"position" : [ 0.0 ],
+									"autostart" : [ 1 ],
+									"vol" : [ 0 ],
+									"loopstart" : [ 0 ],
+									"drawto" : [ "" ],
+									"looppoints" : [ 0, 0 ],
+									"unique" : [ 0 ],
 									"adapt" : [ 1 ],
-									"moviefile" : [ "" ]
+									"colormode" : [ "argb" ],
+									"automatic" : [ 0 ],
+									"loopreport" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"time" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"loopend" : [ 0 ],
+									"time_secs" : [ 0.0 ],
+									"output_texture" : [ 0 ],
+									"rate" : [ 1.0 ],
+									"usedstrect" : [ 0 ],
+									"interp" : [ 0 ],
+									"framereport" : [ 0 ]
 								}
 
 							}
@@ -3088,31 +3686,31 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u558001949" ],
 									"dim" : [ 1, 1 ],
-									"loopreport" : [ 0 ],
-									"loopstart" : [ 0 ],
-									"usedstrect" : [ 0 ],
-									"position" : [ 0.0 ],
-									"loopend" : [ 0 ],
-									"usesrcrect" : [ 0 ],
-									"vol" : [ 0 ],
-									"drawto" : [ "" ],
-									"engine" : [ "avf" ],
-									"unique" : [ 0 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"automatic" : [ 0 ],
-									"autostart" : [ 1 ],
-									"output_texture" : [ 0 ],
-									"time" : [ 0 ],
-									"framereport" : [ 0 ],
-									"rate" : [ 1.0 ],
-									"texture_name" : [ "u277001947" ],
-									"interp" : [ 0 ],
-									"colormode" : [ "argb" ],
-									"time_secs" : [ 0.0 ],
-									"looppoints" : [ 0, 0 ],
 									"dstrect" : [ 0, 0, 1, 1 ],
+									"moviefile" : [ "" ],
+									"engine" : [ "avf" ],
+									"texture_name" : [ "u277001947" ],
+									"position" : [ 0.0 ],
+									"autostart" : [ 1 ],
+									"vol" : [ 0 ],
+									"loopstart" : [ 0 ],
+									"drawto" : [ "" ],
+									"looppoints" : [ 0, 0 ],
+									"unique" : [ 0 ],
 									"adapt" : [ 1 ],
-									"moviefile" : [ "" ]
+									"colormode" : [ "argb" ],
+									"automatic" : [ 0 ],
+									"loopreport" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"time" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"loopend" : [ 0 ],
+									"time_secs" : [ 0.0 ],
+									"output_texture" : [ 0 ],
+									"rate" : [ 1.0 ],
+									"usedstrect" : [ 0 ],
+									"interp" : [ 0 ],
+									"framereport" : [ 0 ]
 								}
 
 							}
@@ -3125,31 +3723,31 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u511001612" ],
 									"dim" : [ 1, 1 ],
-									"loopreport" : [ 0 ],
-									"loopstart" : [ 0 ],
-									"usedstrect" : [ 0 ],
-									"position" : [ 0.0 ],
-									"loopend" : [ 0 ],
-									"usesrcrect" : [ 0 ],
-									"vol" : [ 0 ],
-									"drawto" : [ "" ],
-									"engine" : [ "avf" ],
-									"unique" : [ 0 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"automatic" : [ 0 ],
-									"autostart" : [ 1 ],
-									"output_texture" : [ 0 ],
-									"time" : [ 0 ],
-									"framereport" : [ 0 ],
-									"rate" : [ 1.0 ],
-									"texture_name" : [ "u869001610" ],
-									"interp" : [ 0 ],
-									"colormode" : [ "argb" ],
-									"time_secs" : [ 0.0 ],
-									"looppoints" : [ 0, 0 ],
 									"dstrect" : [ 0, 0, 1, 1 ],
+									"moviefile" : [ "" ],
+									"engine" : [ "avf" ],
+									"texture_name" : [ "u869001610" ],
+									"position" : [ 0.0 ],
+									"autostart" : [ 1 ],
+									"vol" : [ 0 ],
+									"loopstart" : [ 0 ],
+									"drawto" : [ "" ],
+									"looppoints" : [ 0, 0 ],
+									"unique" : [ 0 ],
 									"adapt" : [ 1 ],
-									"moviefile" : [ "" ]
+									"colormode" : [ "argb" ],
+									"automatic" : [ 0 ],
+									"loopreport" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"time" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"loopend" : [ 0 ],
+									"time_secs" : [ 0.0 ],
+									"output_texture" : [ 0 ],
+									"rate" : [ 1.0 ],
+									"usedstrect" : [ 0 ],
+									"interp" : [ 0 ],
+									"framereport" : [ 0 ]
 								}
 
 							}
@@ -3161,31 +3759,31 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u558001949" ],
 									"dim" : [ 1, 1 ],
-									"loopreport" : [ 0 ],
-									"loopstart" : [ 0 ],
-									"usedstrect" : [ 0 ],
-									"position" : [ 0.0 ],
-									"loopend" : [ 0 ],
-									"usesrcrect" : [ 0 ],
-									"vol" : [ 0 ],
-									"drawto" : [ "" ],
-									"engine" : [ "avf" ],
-									"unique" : [ 0 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"automatic" : [ 0 ],
-									"autostart" : [ 1 ],
-									"output_texture" : [ 0 ],
-									"time" : [ 0 ],
-									"framereport" : [ 0 ],
-									"rate" : [ 1.0 ],
-									"texture_name" : [ "u277001947" ],
-									"interp" : [ 0 ],
-									"colormode" : [ "argb" ],
-									"time_secs" : [ 0.0 ],
-									"looppoints" : [ 0, 0 ],
 									"dstrect" : [ 0, 0, 1, 1 ],
+									"moviefile" : [ "" ],
+									"engine" : [ "avf" ],
+									"texture_name" : [ "u277001947" ],
+									"position" : [ 0.0 ],
+									"autostart" : [ 1 ],
+									"vol" : [ 0 ],
+									"loopstart" : [ 0 ],
+									"drawto" : [ "" ],
+									"looppoints" : [ 0, 0 ],
+									"unique" : [ 0 ],
 									"adapt" : [ 1 ],
-									"moviefile" : [ "" ]
+									"colormode" : [ "argb" ],
+									"automatic" : [ 0 ],
+									"loopreport" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"time" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"loopend" : [ 0 ],
+									"time_secs" : [ 0.0 ],
+									"output_texture" : [ 0 ],
+									"rate" : [ 1.0 ],
+									"usedstrect" : [ 0 ],
+									"interp" : [ 0 ],
+									"framereport" : [ 0 ]
 								}
 
 							}
@@ -3197,31 +3795,31 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u558001949" ],
 									"dim" : [ 1, 1 ],
-									"loopreport" : [ 0 ],
-									"loopstart" : [ 0 ],
-									"usedstrect" : [ 0 ],
-									"position" : [ 0.0 ],
-									"loopend" : [ 0 ],
-									"usesrcrect" : [ 0 ],
-									"vol" : [ 0 ],
-									"drawto" : [ "" ],
-									"engine" : [ "avf" ],
-									"unique" : [ 0 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"automatic" : [ 0 ],
-									"autostart" : [ 1 ],
-									"output_texture" : [ 0 ],
-									"time" : [ 0 ],
-									"framereport" : [ 0 ],
-									"rate" : [ 1.0 ],
-									"texture_name" : [ "u277001947" ],
-									"interp" : [ 0 ],
-									"colormode" : [ "argb" ],
-									"time_secs" : [ 0.0 ],
-									"looppoints" : [ 0, 0 ],
 									"dstrect" : [ 0, 0, 1, 1 ],
+									"moviefile" : [ "" ],
+									"engine" : [ "avf" ],
+									"texture_name" : [ "u277001947" ],
+									"position" : [ 0.0 ],
+									"autostart" : [ 1 ],
+									"vol" : [ 0 ],
+									"loopstart" : [ 0 ],
+									"drawto" : [ "" ],
+									"looppoints" : [ 0, 0 ],
+									"unique" : [ 0 ],
 									"adapt" : [ 1 ],
-									"moviefile" : [ "" ]
+									"colormode" : [ "argb" ],
+									"automatic" : [ 0 ],
+									"loopreport" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"time" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"loopend" : [ 0 ],
+									"time_secs" : [ 0.0 ],
+									"output_texture" : [ 0 ],
+									"rate" : [ 1.0 ],
+									"usedstrect" : [ 0 ],
+									"interp" : [ 0 ],
+									"framereport" : [ 0 ]
 								}
 
 							}
@@ -3233,31 +3831,31 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u511001612" ],
 									"dim" : [ 1, 1 ],
-									"loopreport" : [ 0 ],
-									"loopstart" : [ 0 ],
-									"usedstrect" : [ 0 ],
-									"position" : [ 0.0 ],
-									"loopend" : [ 0 ],
-									"usesrcrect" : [ 0 ],
-									"vol" : [ 0 ],
-									"drawto" : [ "" ],
-									"engine" : [ "avf" ],
-									"unique" : [ 0 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"automatic" : [ 0 ],
-									"autostart" : [ 1 ],
-									"output_texture" : [ 0 ],
-									"time" : [ 0 ],
-									"framereport" : [ 0 ],
-									"rate" : [ 1.0 ],
-									"texture_name" : [ "u869001610" ],
-									"interp" : [ 0 ],
-									"colormode" : [ "argb" ],
-									"time_secs" : [ 0.0 ],
-									"looppoints" : [ 0, 0 ],
 									"dstrect" : [ 0, 0, 1, 1 ],
+									"moviefile" : [ "" ],
+									"engine" : [ "avf" ],
+									"texture_name" : [ "u869001610" ],
+									"position" : [ 0.0 ],
+									"autostart" : [ 1 ],
+									"vol" : [ 0 ],
+									"loopstart" : [ 0 ],
+									"drawto" : [ "" ],
+									"looppoints" : [ 0, 0 ],
+									"unique" : [ 0 ],
 									"adapt" : [ 1 ],
-									"moviefile" : [ "" ]
+									"colormode" : [ "argb" ],
+									"automatic" : [ 0 ],
+									"loopreport" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"time" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"loopend" : [ 0 ],
+									"time_secs" : [ 0.0 ],
+									"output_texture" : [ 0 ],
+									"rate" : [ 1.0 ],
+									"usedstrect" : [ 0 ],
+									"interp" : [ 0 ],
+									"framereport" : [ 0 ]
 								}
 
 							}
@@ -3270,31 +3868,31 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u511001612" ],
 									"dim" : [ 1, 1 ],
-									"loopreport" : [ 0 ],
-									"loopstart" : [ 0 ],
-									"usedstrect" : [ 0 ],
-									"position" : [ 0.0 ],
-									"loopend" : [ 0 ],
-									"usesrcrect" : [ 0 ],
-									"vol" : [ 0 ],
-									"drawto" : [ "" ],
-									"engine" : [ "avf" ],
-									"unique" : [ 0 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"automatic" : [ 0 ],
-									"autostart" : [ 1 ],
-									"output_texture" : [ 0 ],
-									"time" : [ 0 ],
-									"framereport" : [ 0 ],
-									"rate" : [ 1.0 ],
-									"texture_name" : [ "u869001610" ],
-									"interp" : [ 0 ],
-									"colormode" : [ "argb" ],
-									"time_secs" : [ 0.0 ],
-									"looppoints" : [ 0, 0 ],
 									"dstrect" : [ 0, 0, 1, 1 ],
+									"moviefile" : [ "" ],
+									"engine" : [ "avf" ],
+									"texture_name" : [ "u869001610" ],
+									"position" : [ 0.0 ],
+									"autostart" : [ 1 ],
+									"vol" : [ 0 ],
+									"loopstart" : [ 0 ],
+									"drawto" : [ "" ],
+									"looppoints" : [ 0, 0 ],
+									"unique" : [ 0 ],
 									"adapt" : [ 1 ],
-									"moviefile" : [ "" ]
+									"colormode" : [ "argb" ],
+									"automatic" : [ 0 ],
+									"loopreport" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"time" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"loopend" : [ 0 ],
+									"time_secs" : [ 0.0 ],
+									"output_texture" : [ 0 ],
+									"rate" : [ 1.0 ],
+									"usedstrect" : [ 0 ],
+									"interp" : [ 0 ],
+									"framereport" : [ 0 ]
 								}
 
 							}
@@ -3306,31 +3904,31 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u564000379" ],
 									"dim" : [ 1, 1 ],
-									"loopreport" : [ 0 ],
-									"loopstart" : [ 0 ],
-									"usedstrect" : [ 0 ],
-									"position" : [ 0.0 ],
-									"loopend" : [ 0 ],
-									"usesrcrect" : [ 0 ],
-									"vol" : [ 0 ],
-									"drawto" : [ "" ],
-									"engine" : [ "avf" ],
-									"unique" : [ 0 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"automatic" : [ 0 ],
-									"autostart" : [ 1 ],
-									"output_texture" : [ 0 ],
-									"time" : [ 0 ],
-									"framereport" : [ 0 ],
-									"rate" : [ 1.0 ],
-									"texture_name" : [ "u462000377" ],
-									"interp" : [ 0 ],
-									"colormode" : [ "argb" ],
-									"time_secs" : [ 0.0 ],
-									"looppoints" : [ 0, 0 ],
 									"dstrect" : [ 0, 0, 1, 1 ],
+									"moviefile" : [ "" ],
+									"engine" : [ "avf" ],
+									"texture_name" : [ "u462000377" ],
+									"position" : [ 0.0 ],
+									"autostart" : [ 1 ],
+									"vol" : [ 0 ],
+									"loopstart" : [ 0 ],
+									"drawto" : [ "" ],
+									"looppoints" : [ 0, 0 ],
+									"unique" : [ 0 ],
 									"adapt" : [ 1 ],
-									"moviefile" : [ "" ]
+									"colormode" : [ "argb" ],
+									"automatic" : [ 0 ],
+									"loopreport" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"time" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"loopend" : [ 0 ],
+									"time_secs" : [ 0.0 ],
+									"output_texture" : [ 0 ],
+									"rate" : [ 1.0 ],
+									"usedstrect" : [ 0 ],
+									"interp" : [ 0 ],
+									"framereport" : [ 0 ]
 								}
 
 							}
@@ -3343,68 +3941,68 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u564000379" ],
 									"dim" : [ 1, 1 ],
-									"loopreport" : [ 0 ],
-									"loopstart" : [ 0 ],
-									"usedstrect" : [ 0 ],
-									"position" : [ 0.0 ],
-									"loopend" : [ 0 ],
-									"usesrcrect" : [ 0 ],
-									"vol" : [ 0 ],
-									"drawto" : [ "" ],
-									"engine" : [ "avf" ],
-									"unique" : [ 0 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"automatic" : [ 0 ],
-									"autostart" : [ 1 ],
-									"output_texture" : [ 0 ],
-									"time" : [ 0 ],
-									"framereport" : [ 0 ],
-									"rate" : [ 1.0 ],
-									"texture_name" : [ "u462000377" ],
-									"interp" : [ 0 ],
-									"colormode" : [ "argb" ],
-									"time_secs" : [ 0.0 ],
-									"looppoints" : [ 0, 0 ],
 									"dstrect" : [ 0, 0, 1, 1 ],
+									"moviefile" : [ "" ],
+									"engine" : [ "avf" ],
+									"texture_name" : [ "u462000377" ],
+									"position" : [ 0.0 ],
+									"autostart" : [ 1 ],
+									"vol" : [ 0 ],
+									"loopstart" : [ 0 ],
+									"drawto" : [ "" ],
+									"looppoints" : [ 0, 0 ],
+									"unique" : [ 0 ],
 									"adapt" : [ 1 ],
-									"moviefile" : [ "" ]
+									"colormode" : [ "argb" ],
+									"automatic" : [ 0 ],
+									"loopreport" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"time" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"loopend" : [ 0 ],
+									"time_secs" : [ 0.0 ],
+									"output_texture" : [ 0 ],
+									"rate" : [ 1.0 ],
+									"usedstrect" : [ 0 ],
+									"interp" : [ 0 ],
+									"framereport" : [ 0 ]
 								}
 
 							}
 , 							{
 								"filename" : "/Users/mattross/Downloads/Vintage Television Commercials - 1980s - Part 1.mp4",
 								"filekind" : "moviefile",
-								"selection" : [ 0.165829, 0.874372 ],
+								"selection" : [ 0.350365, 0.817518 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u511001612" ],
 									"dim" : [ 1, 1 ],
-									"loopreport" : [ 0 ],
-									"loopstart" : [ 0 ],
-									"usedstrect" : [ 0 ],
-									"position" : [ 0.0 ],
-									"loopend" : [ 0 ],
-									"usesrcrect" : [ 0 ],
-									"vol" : [ 0 ],
-									"drawto" : [ "" ],
-									"engine" : [ "avf" ],
-									"unique" : [ 0 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"automatic" : [ 0 ],
-									"autostart" : [ 1 ],
-									"output_texture" : [ 0 ],
-									"time" : [ 0 ],
-									"framereport" : [ 0 ],
-									"rate" : [ 1.0 ],
-									"texture_name" : [ "u869001610" ],
-									"interp" : [ 0 ],
-									"colormode" : [ "argb" ],
-									"time_secs" : [ 0.0 ],
-									"looppoints" : [ 0, 0 ],
 									"dstrect" : [ 0, 0, 1, 1 ],
+									"moviefile" : [ "" ],
+									"engine" : [ "avf" ],
+									"texture_name" : [ "u869001610" ],
+									"position" : [ 0.0 ],
+									"autostart" : [ 1 ],
+									"vol" : [ 0 ],
+									"loopstart" : [ 0 ],
+									"drawto" : [ "" ],
+									"looppoints" : [ 0, 0 ],
+									"unique" : [ 0 ],
 									"adapt" : [ 1 ],
-									"moviefile" : [ "" ]
+									"colormode" : [ "argb" ],
+									"automatic" : [ 0 ],
+									"loopreport" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"time" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"loopend" : [ 0 ],
+									"time_secs" : [ 0.0 ],
+									"output_texture" : [ 0 ],
+									"rate" : [ 1.0 ],
+									"usedstrect" : [ 0 ],
+									"interp" : [ 0 ],
+									"framereport" : [ 0 ]
 								}
 
 							}
@@ -3537,7 +4135,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-106", 0 ],
-					"order" : 21,
+					"order" : 22,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -3545,7 +4143,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-107", 0 ],
-					"order" : 26,
+					"order" : 27,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -3553,54 +4151,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-114", 0 ],
-					"order" : 14,
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-115", 0 ],
-					"order" : 17,
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-118", 0 ],
-					"order" : 16,
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-119", 0 ],
-					"order" : 19,
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-122", 0 ],
-					"order" : 23,
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-123", 0 ],
-					"order" : 25,
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-126", 0 ],
 					"order" : 15,
 					"source" : [ "obj-11", 0 ]
 				}
@@ -3608,7 +4158,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-127", 0 ],
+					"destination" : [ "obj-115", 0 ],
 					"order" : 18,
 					"source" : [ "obj-11", 0 ]
 				}
@@ -3616,8 +4166,56 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-118", 0 ],
+					"order" : 17,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-119", 0 ],
+					"order" : 20,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-122", 0 ],
+					"order" : 24,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-123", 0 ],
+					"order" : 26,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-126", 0 ],
+					"order" : 16,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-127", 0 ],
+					"order" : 19,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-141", 0 ],
-					"order" : 4,
+					"order" : 5,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -3625,7 +4223,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-142", 0 ],
-					"order" : 5,
+					"order" : 6,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -3649,7 +4247,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"order" : 24,
+					"order" : 25,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-184", 0 ],
+					"order" : 3,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -3657,7 +4263,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
-					"order" : 20,
+					"order" : 21,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -3673,22 +4279,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
-					"order" : 11,
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-39", 0 ],
-					"order" : 13,
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-45", 0 ],
 					"order" : 12,
 					"source" : [ "obj-11", 0 ]
 				}
@@ -3696,8 +4286,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"order" : 14,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"order" : 13,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
-					"order" : 10,
+					"order" : 11,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -3705,7 +4311,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"order" : 22,
+					"order" : 23,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -3713,7 +4319,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-50", 0 ],
-					"order" : 3,
+					"order" : 4,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -3721,7 +4327,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-55", 0 ],
-					"order" : 9,
+					"order" : 10,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -3729,7 +4335,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-59", 0 ],
-					"order" : 6,
+					"order" : 7,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -3737,7 +4343,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-63", 0 ],
-					"order" : 8,
+					"order" : 9,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -3745,7 +4351,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-65", 0 ],
-					"order" : 7,
+					"order" : 8,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -4038,8 +4644,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-153", 0 ],
-					"source" : [ "obj-148", 0 ]
+					"destination" : [ "obj-155", 1 ],
+					"source" : [ "obj-149", 0 ]
 				}
 
 			}
@@ -4047,6 +4653,69 @@
 				"patchline" : 				{
 					"destination" : [ "obj-44", 0 ],
 					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-155", 0 ],
+					"source" : [ "obj-150", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-150", 0 ],
+					"source" : [ "obj-152", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-152", 0 ],
+					"source" : [ "obj-153", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-153", 0 ],
+					"source" : [ "obj-154", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-156", 0 ],
+					"source" : [ "obj-155", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-157", 0 ],
+					"source" : [ "obj-155", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-158", 0 ],
+					"source" : [ "obj-156", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-158", 0 ],
+					"source" : [ "obj-157", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-174", 0 ],
+					"source" : [ "obj-158", 0 ]
 				}
 
 			}
@@ -4075,8 +4744,97 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-179", 1 ],
+					"source" : [ "obj-174", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-179", 1 ],
+					"source" : [ "obj-176", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-176", 0 ],
+					"source" : [ "obj-177", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-183", 0 ],
+					"source" : [ "obj-178", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"source" : [ "obj-179", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
 					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-181", 0 ],
+					"source" : [ "obj-182", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-181", 0 ],
+					"source" : [ "obj-182", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-149", 0 ],
+					"order" : 0,
+					"source" : [ "obj-183", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-177", 0 ],
+					"order" : 1,
+					"source" : [ "obj-183", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-182", 0 ],
+					"order" : 2,
+					"source" : [ "obj-183", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-154", 0 ],
+					"order" : 0,
+					"source" : [ "obj-184", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-186", 0 ],
+					"order" : 1,
+					"source" : [ "obj-184", 0 ]
 				}
 
 			}
@@ -4222,7 +4980,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
+					"destination" : [ "obj-179", 0 ],
 					"source" : [ "obj-35", 0 ]
 				}
 
@@ -4717,80 +5475,80 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-47::obj-19" : [ "range[5]", "range", 0 ],
-			"obj-58::obj-48" : [ "umenu[8]", "umenu", 0 ],
-			"obj-47::obj-75" : [ "pictctrl[59]", "pictctrl[1]", 0 ],
-			"obj-62::obj-7" : [ "pictctrl[19]", "pictctrl[1]", 0 ],
-			"obj-15::obj-17" : [ "range[4]", "range", 0 ],
-			"obj-43::obj-39" : [ "pictctrl[3]", "pictctrl[1]", 0 ],
-			"obj-44::obj-17" : [ "vertical[4]", "vertical", 0 ],
-			"obj-44::obj-47" : [ "pictctrl[212]", "pictctrl[1]", 0 ],
-			"obj-44::obj-41" : [ "pictctrl[213]", "pictctrl[1]", 0 ],
-			"obj-15::obj-51" : [ "pictctrl[5]", "pictctrl[1]", 0 ],
-			"obj-44::obj-53" : [ "pictctrl[214]", "pictctrl[1]", 0 ],
-			"obj-35::obj-127" : [ "saturation[3]", "saturation", 0 ],
-			"obj-15::obj-41" : [ "pictctrl[6]", "pictctrl[1]", 0 ],
-			"obj-15::obj-94" : [ "umenu[1]", "umenu", 0 ],
-			"obj-43::obj-77::obj-24" : [ "umenu[2]", "umenu[2]", 0 ],
-			"obj-58::obj-41" : [ "pictctrl[14]", "pictctrl[1]", 0 ],
-			"obj-47::obj-74" : [ "pictctrl[58]", "pictctrl[1]", 0 ],
-			"obj-58::obj-53" : [ "pictctrl[15]", "pictctrl[1]", 0 ],
-			"obj-35::obj-34" : [ "pictctrl[9]", "pictctrl[1]", 0 ],
-			"obj-62::obj-32" : [ "pictctrl[21]", "pictctrl[1]", 0 ],
-			"obj-44::obj-2" : [ "range[27]", "range", 0 ],
-			"obj-35::obj-6" : [ "range[8]", "range", 0 ],
-			"obj-15::obj-24" : [ "vertical", "vertical", 0 ],
+			"obj-15::obj-54" : [ "umenu[6]", "umenu", 0 ],
 			"obj-62::obj-38" : [ "bleed", "bleed", 0 ],
-			"obj-102::obj-41" : [ "pictctrl[23]", "pictctrl[1]", 0 ],
-			"obj-44::obj-16" : [ "horizontal[4]", "horizontal", 0 ],
 			"obj-47::obj-48" : [ "rotation", "rotation", 0 ],
+			"obj-58::obj-53" : [ "pictctrl[15]", "pictctrl[1]", 0 ],
+			"obj-47::obj-75" : [ "pictctrl[59]", "pictctrl[1]", 0 ],
+			"obj-62::obj-32" : [ "pictctrl[21]", "pictctrl[1]", 0 ],
+			"obj-35::obj-21" : [ "pictctrl[1]", "pictctrl[1]", 0 ],
 			"obj-35::obj-148" : [ "pictctrl[43]", "pictctrl[1]", 0 ],
 			"obj-35::obj-147" : [ "pictctrl[44]", "pictctrl[1]", 0 ],
-			"obj-44::obj-94" : [ "umenu[7]", "umenu", 0 ],
-			"obj-35::obj-24" : [ "pictctrl[2]", "pictctrl[1]", 0 ],
-			"obj-58::obj-37" : [ "y offset", "y offset", 0 ],
-			"obj-62::obj-39" : [ "gain", "gain", 0 ],
-			"obj-44::obj-51" : [ "pictctrl[211]", "pictctrl[1]", 0 ],
-			"obj-102::obj-6" : [ "live.toggle[1]", "live.toggle", 0 ],
-			"obj-35::obj-104" : [ "pictctrl[22]", "pictctrl[1]", 0 ],
-			"obj-15::obj-68" : [ "horizontal", "horizontal", 0 ],
-			"obj-43::obj-77::obj-35" : [ "number", "number", 0 ],
-			"obj-35::obj-15" : [ "hoffset", "H offset", 0 ],
-			"obj-58::obj-68" : [ "x offset", "x offset", 0 ],
-			"obj-62::obj-13" : [ "feedback", "feedback", 0 ],
-			"obj-58::obj-13" : [ "pictctrl[16]", "pictctrl[1]", 0 ],
-			"obj-35::obj-119" : [ "hue[1]", "hue", 0 ],
-			"obj-15::obj-53" : [ "pictctrl[4]", "pictctrl[1]", 0 ],
-			"obj-62::obj-9" : [ "pictctrl[20]", "pictctrl[1]", 0 ],
-			"obj-15::obj-47" : [ "pictctrl[7]", "pictctrl[1]", 0 ],
-			"obj-102::obj-16" : [ "live.toggle", "live.toggle", 0 ],
 			"obj-43::obj-51" : [ "pictctrl[8]", "pictctrl[1]", 0 ],
-			"obj-47::obj-28" : [ "pictctrl[57]", "pictctrl[1]", 0 ],
-			"obj-47::obj-77" : [ "y offset[1]", "y offset", 0 ],
-			"obj-35::obj-142" : [ "lightness", "lightness", 0 ],
-			"obj-47::obj-78" : [ "x offset[1]", "x offset", 0 ],
-			"obj-15::obj-54" : [ "umenu[6]", "umenu", 0 ],
-			"obj-47::obj-51" : [ "umenu[12]", "umenu", 0 ],
-			"obj-58::obj-3" : [ "range[6]", "range", 0 ],
+			"obj-15::obj-68" : [ "horizontal", "horizontal", 0 ],
 			"obj-44::obj-54" : [ "umenu[3]", "umenu", 0 ],
+			"obj-47::obj-28" : [ "pictctrl[57]", "pictctrl[1]", 0 ],
+			"obj-15::obj-53" : [ "pictctrl[4]", "pictctrl[1]", 0 ],
+			"obj-47::obj-77" : [ "y offset[1]", "y offset", 0 ],
+			"obj-35::obj-127" : [ "saturation[3]", "saturation", 0 ],
+			"obj-47::obj-78" : [ "x offset[1]", "x offset", 0 ],
+			"obj-58::obj-41" : [ "pictctrl[14]", "pictctrl[1]", 0 ],
+			"obj-47::obj-74" : [ "pictctrl[58]", "pictctrl[1]", 0 ],
+			"obj-47::obj-51" : [ "umenu[12]", "umenu", 0 ],
+			"obj-43::obj-39" : [ "pictctrl[3]", "pictctrl[1]", 0 ],
 			"obj-62::obj-1" : [ "range[7]", "range", 0 ],
-			"obj-35::obj-32" : [ "soffset[1]", "S offset", 0 ],
-			"obj-35::obj-21" : [ "pictctrl[1]", "pictctrl[1]", 0 ],
+			"obj-44::obj-47" : [ "pictctrl[212]", "pictctrl[1]", 0 ],
+			"obj-44::obj-17" : [ "vertical[4]", "vertical", 0 ],
+			"obj-35::obj-44" : [ "loffset[2]", "L offset", 0 ],
+			"obj-43::obj-77::obj-24" : [ "umenu[2]", "umenu[2]", 0 ],
+			"obj-35::obj-15" : [ "hoffset", "H offset", 0 ],
 			"obj-47::obj-26" : [ "pictctrl[60]", "pictctrl[1]", 0 ],
-			"obj-35::obj-44" : [ "loffset[2]", "L offset", 0 ]
+			"obj-47::obj-19" : [ "range[5]", "range", 0 ],
+			"obj-102::obj-16" : [ "live.toggle", "live.toggle", 0 ],
+			"obj-35::obj-119" : [ "hue[1]", "hue", 0 ],
+			"obj-58::obj-48" : [ "umenu[8]", "umenu", 0 ],
+			"obj-62::obj-13" : [ "feedback", "feedback", 0 ],
+			"obj-62::obj-9" : [ "pictctrl[20]", "pictctrl[1]", 0 ],
+			"obj-15::obj-24" : [ "vertical", "vertical", 0 ],
+			"obj-58::obj-37" : [ "y offset", "y offset", 0 ],
+			"obj-44::obj-41" : [ "pictctrl[213]", "pictctrl[1]", 0 ],
+			"obj-44::obj-16" : [ "horizontal[4]", "horizontal", 0 ],
+			"obj-35::obj-142" : [ "lightness", "lightness", 0 ],
+			"obj-44::obj-53" : [ "pictctrl[214]", "pictctrl[1]", 0 ],
+			"obj-43::obj-77::obj-35" : [ "number", "number", 0 ],
+			"obj-44::obj-2" : [ "range[27]", "range", 0 ],
+			"obj-35::obj-34" : [ "pictctrl[9]", "pictctrl[1]", 0 ],
+			"obj-44::obj-51" : [ "pictctrl[211]", "pictctrl[1]", 0 ],
+			"obj-15::obj-94" : [ "umenu[1]", "umenu", 0 ],
+			"obj-58::obj-13" : [ "pictctrl[16]", "pictctrl[1]", 0 ],
+			"obj-35::obj-32" : [ "soffset[1]", "S offset", 0 ],
+			"obj-62::obj-7" : [ "pictctrl[19]", "pictctrl[1]", 0 ],
+			"obj-102::obj-6" : [ "live.toggle[1]", "live.toggle", 0 ],
+			"obj-15::obj-17" : [ "range[4]", "range", 0 ],
+			"obj-35::obj-6" : [ "range[8]", "range", 0 ],
+			"obj-58::obj-68" : [ "x offset", "x offset", 0 ],
+			"obj-102::obj-41" : [ "pictctrl[23]", "pictctrl[1]", 0 ],
+			"obj-35::obj-24" : [ "pictctrl[2]", "pictctrl[1]", 0 ],
+			"obj-15::obj-51" : [ "pictctrl[5]", "pictctrl[1]", 0 ],
+			"obj-15::obj-41" : [ "pictctrl[6]", "pictctrl[1]", 0 ],
+			"obj-44::obj-94" : [ "umenu[7]", "umenu", 0 ],
+			"obj-62::obj-39" : [ "gain", "gain", 0 ],
+			"obj-58::obj-3" : [ "range[6]", "range", 0 ],
+			"obj-15::obj-47" : [ "pictctrl[7]", "pictctrl[1]", 0 ],
+			"obj-35::obj-104" : [ "pictctrl[22]", "pictctrl[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Vintage Television Commercials - 1980s - Part 1.mp4",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Soul Train   The Best 2.mp4",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
@@ -4803,112 +5561,112 @@
 , 			{
 				"name" : "chrismtaszoid.mov",
 				"bootpath" : "~/Desktop",
-				"patcherrelativepath" : "../../Desktop",
+				"patcherrelativepath" : "../../../Desktop",
 				"type" : "MooV",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mariorunthrougha.mp4",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "linevizs1.mov",
 				"bootpath" : "~/Desktop",
-				"patcherrelativepath" : "../../Desktop",
+				"patcherrelativepath" : "../../../Desktop",
 				"type" : "MooV",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ＳＵＮＤＡＹ ＳＣＨＯＯＬ.mp4",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "The Charleston Dance (1923 - 1928).mp4",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "clouds.mp4",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "videoplayback.mp4",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Estoy Cansado de FESTEJAR.mp4",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Bananas in Pyjamas Theme Song.mp4",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Cyclist on Klein Bottle.mp4",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "skeletons.mp4",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "videoplayback (1).mp4",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "harambeviz.mov",
 				"bootpath" : "~/Desktop",
-				"patcherrelativepath" : "../../Desktop",
+				"patcherrelativepath" : "../../../Desktop",
 				"type" : "MooV",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "outrun.mp4",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "django.mp4",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rickandmorty.mp4",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
@@ -4975,154 +5733,154 @@
 , 			{
 				"name" : "daphnieyeye.mp3",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "Mp3 ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "03 Atlantis.mp3",
 				"bootpath" : "~/Downloads/Azealia Banks - Fantasea",
-				"patcherrelativepath" : "../../Downloads/Azealia Banks - Fantasea",
+				"patcherrelativepath" : "../../../Downloads/Azealia Banks - Fantasea",
 				"type" : "Mp3 ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Gramatik - Hit That Jive (Original mix).mp3",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "Mp3 ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Nicolas Jaar - Mi Mujer.mp3",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "Mp3 ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AlunaGeorge - Your Drums Your Love (Duke Dumont Remix).mp3",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "Mp3 ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SBTRKT - Pharaohs.mp3",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "Mp3 ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Thundercat - Oh Sheit Its X! (Brainfeeder).mp3",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "Mp3 ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Machinedrum - Boxoff.mp3",
 				"bootpath" : "~/Music/iTunes/iTunes Media/Music/Unknown Artist/Unknown Album",
-				"patcherrelativepath" : "../../Music/iTunes/iTunes Media/Music/Unknown Artist/Unknown Album",
+				"patcherrelativepath" : "../../../Music/iTunes/iTunes Media/Music/Unknown Artist/Unknown Album",
 				"type" : "Mp3 ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "toroymoisaythat.mp3",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "Mp3 ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Chrome Sparks - Ride The White Lightning.mp3",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "Mp3 ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Kaytranada - Bullets (featuring Little Dragon).mp3",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "Mp3 ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "y2mate.com - floating_points_truly_KjYs2Fd3-3A.mp3",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "Mp3 ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Daedalus - Special Re Quest (1).mp3",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "Mp3 ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "01. Les Sins - Talk About.mp3",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "Mp3 ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Friend Within - The Renegade.mp3",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "Mp3 ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Hot Chip - Night  Day.mp3",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "Mp3 ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djpaypalover.mp3",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "Mp3 ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Letherette - Rich  Dan.mp3",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "Mp3 ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Four Tet - Love Cry.mp3",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "Mp3 ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "towa_tei.mp3",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "Mp3 ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "strandbar.mp3",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "Mp3 ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Jamie xx - Sleep Sound.mp3",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"patcherrelativepath" : "../../../Downloads",
 				"type" : "Mp3 ",
 				"implicit" : 1
 			}
